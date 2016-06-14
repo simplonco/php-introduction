@@ -190,39 +190,39 @@ computer (primitive `rand(min, max)` returns an `integer` between `min`
 and `max`). The user is entitled to a maximum of eight trials. With each test
 you must display a code message __"number given too small"__ or
 __"number given too big"__. In conclusion, is
-__"bravo, you found in *[number]* test(s)"___ or
+__"bravo, you found in *[number]* test(s)"__ or
 __"sorry, the number was *[value]*"__.
 
 Category: Tables
 ----------------
 
-### ** Exercise 1 - Somme **
+### Exercise 1 - Somme
 
 Write an algorithm that calculates and displays the sum of the integers a
 board.
 
-### ** Exercise 2 - Maximum and minimum **
+### Exercise 2 - Maximum and minimum
 
 Write an algorithm that displays the largest and smallest
 number in an array of integers.
 
-### ** Exercise 3 - Number of array elements **
+### Exercise 3 - Number of array elements
 
 Write an algorithm that displays the number of items there are in
 a painting.
 
-### ** Exercise 4 - Bigger gap **
+### Exercise 4 - Bigger gap
 
 An algorithm that calculates the largest gap between two integers
 consecutive in a table.
 
-### ** Year 5 - Table ordered **?
+### Exercise 5 - Table ordered ?
 
 Write an algorithm that displays "true" if an array of integers is
 ordered (strictly) increasing the values, or "false" if not
 not.
 
-### ** Exercise 6 - Occurence figures **
+### Exercise 6 - Occurence figures
 
 Write an algorithm that displays for each digit in the number
 many times it appears in a number. Thus, for the number
