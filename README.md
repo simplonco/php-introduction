@@ -51,20 +51,19 @@ language, language etc.
 
 After the first two parts of the course: *Part 1 - The basics of PHP*
 and *Part 2 - Transmit data page to page*, you will realize.
-Minimum 2 years in the categories _"PHP Introduction"_, _"Loops"_, _"Tables and blocks"_.
+Minimum 2 exercises in the categories _"PHP Introduction"_, _"Loops"_, _"Tables and blocks"_.
 
 After *Part 3 - Store information in a database*
 do the exercises of the category _"PHP / MySQL"_.
 
-_(For the years see *Part 3 - Exercises* that is in
-this document)._
+_(For the years see *Part 3 - Exercises* that is in this document)._
 
 <https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql>
 
 PHP / MySQL
 -----------
 
-The real interest of a type of backend language like PHP is to manage
+The real interest of a type of **backend** language like PHP is to manage
 data (store, reproduce, process, etc..).
 
 For example, for a contact form for a website it
@@ -157,11 +156,11 @@ Of his choice. You must display the greatest number.
 On a range of numbers from `0` to `100`, view the suites below in
 different blocks:
 
-* a) A series of numbers with "The not growing":
+* a) A series of numbers with _"The not growing"_:
 ```php
 1, 2, 4, 7, 11, 16, ...
 ```
-* b) A so-called many more "lame":
+* b) A so-called many more _"lame"_:
 ```php
 1, 2, 4, 5, 7, 8, 10, 11, ...
 ```
@@ -183,16 +182,16 @@ For example if your name is Bob, this gives:
 B = 2, O = 15, B = 2 so the weight is 2 + 15 + 2 = 19
 ```
 
-### Year 5 - Game of the range
+### Exercise 5 - Game of the range
 
 Simulate the game of the range. This game is to try to discover
-any number between 1 and 100 inclusive, drawn by
-computer (primitive * rand (min, max) * returns an integer between min
-and max). The user is entitled to a maximum of eight trials. With each test
-you must display a code message "number given too little" or
-"Given too many." In conclusion, is "bravo, you
-found in [number] test (s)" or "sorry, the number was
-[value]".
+any number between `1` and `100` inclusive, drawn by
+computer (primitive `rand(min, max)` returns an `integer` between `min`
+and `max`). The user is entitled to a maximum of eight trials. With each test
+you must display a code message __"number given too small"__ or
+__"number given too big"__. In conclusion, is
+__"bravo, you found in *[number]* test(s)"___ or
+__"sorry, the number was *[value]*"__.
 
 Category: Tables
 ----------------
