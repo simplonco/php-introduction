@@ -26,7 +26,7 @@ exercise routines that we propose.
 3 - Widen your social networks and be curious (repeat)!
 -------------------------------------------------------
 
-Remember to share your findings with others via Slack ;-)
+Remember to share your findings with others via **Slack**!
 
 Part 1 - Reading
 ================
@@ -56,8 +56,8 @@ Minimum 2 years in the categories _"PHP Introduction"_, _"Loops"_, _"Tables and 
 After *Part 3 - Store information in a database*
 do the exercises of the category _"PHP / MySQL"_.
 
-(For the years see *Part 3 - Exercises* that is in
-this document).
+_(For the years see *Part 3 - Exercises* that is in
+this document)._
 
 <https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql>
 
@@ -130,9 +130,9 @@ parked or not.
 Category: Loops
 ---------------
 
-### Exercise 1 - Display the first n digits
+### Exercise 1 - Display the first `n` digits
 
-The user enters two numbers corresponding to the beginning and at the end
+The user enters two numbers corresponding to the `beginning` and at the `end`
 a range of numbers.
 
 You must show all the numbers in this range respecting
@@ -145,38 +145,45 @@ rules below:
 
 *Note:*
 The range of numbers must be positive numbers
-(Greater than 0)
+(Greater than `0`)
 
 ### Exercise 2 - Maximum numbers
 
 10 Display text fields. The user will fill them with numbers
 Of his choice. You must display the greatest number.
 
-### ** Exercise 3 - suites Generation **
+### Exercise 3 - suites Generation
 
-On a range of numbers from 0 to 100, view the suites below in
+On a range of numbers from `0` to `100`, view the suites below in
 different blocks:
 
-a) A series of numbers with "The not growing"
-1, 2, 4, 7, 11, 16,. . .
+* a) A series of numbers with "The not growing":
+```php
+1, 2, 4, 7, 11, 16, ...
+```
+* b) A so-called many more "lame":
+```php
+1, 2, 4, 5, 7, 8, 10, 11, ...
+```
+* c) The Fibonacci sequence:
+```php
+0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+```
 
-b) A so-called many more "lame"
-1, 2, 4, 5, 7, 8, 10, 11,. . .
-
-c) The Fibonacci sequence
-0, 1, 1, 2, 3, 5, 8, 13, 21,. . .
-
-### Exercise 4 ** - ** Numerology
+### Exercise 4 - Numerology
 
 Convert your name and first name in a number of the principle of
-numerology, each letter has a weight. example:
-A = 1, B = 2, C = 3, etc.
-
+numerology, each letter has a weight. e.g.:
+```php
+A = 1, B = 2, C = 3, etc..
+```
 Show the weight of your first name and weight of your name.
 For example if your name is Bob, this gives:
+```php
 B = 2, O = 15, B = 2 so the weight is 2 + 15 + 2 = 19
+```
 
-### ** Year 5 - Game of the range **
+### Year 5 - Game of the range
 
 Simulate the game of the range. This game is to try to discover
 any number between 1 and 100 inclusive, drawn by
@@ -184,11 +191,11 @@ computer (primitive * rand (min, max) * returns an integer between min
 and max). The user is entitled to a maximum of eight trials. With each test
 you must display a code message "number given too little" or
 "Given too many." In conclusion, is "bravo, you
-found in [number] test (s) "or" sorry, the number was
-[value] ".
+found in [number] test (s)" or "sorry, the number was
+[value]".
 
-** Catégoie: Tables **
----------------------------
+Category: Tables
+----------------
 
 ### ** Exercise 1 - Somme **
 
