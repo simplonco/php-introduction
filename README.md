@@ -3,6 +3,8 @@
 Part 0 - Program
 ================
 
+![The Elephant](https://upload.wikimedia.org/wikipedia/commons/4/49/Elephant_De_Seve_18th_century.jpg)
+
 We will offer every day of the reading, activities / exercises
 and resources. This is described in the corresponding parts.
 
