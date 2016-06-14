@@ -95,7 +95,7 @@ Calculer le prix total d’un panier. Celui-ci comportera 3 produits
 différents. Pour chaque produit, laissez la possibilité d’entrer le prix
 (hors taxe), le taux de tva (en pourcentage), et la quantité.
 
-### **Exercice 2 - Comparateur de prix**
+### Exercice 2 - Comparateur de prix
 
 Comparer le prix 4 produits et afficher le nom du produit le moins cher
 et le nom du produit le plus cher. Donnez la possibilité de rentrer le
