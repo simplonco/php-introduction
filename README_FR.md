@@ -1,8 +1,5 @@
-% Initiation à la programmation (PHP)
-% Simplon
-% Mars 2015
+# Initiation à la programmation (PHP)
 
-\newpage
 
 **Partie 0 - Programme**
 ========================
@@ -40,8 +37,7 @@ N'oubliez pas de partager vos découvertes avec les autres via Slack ;-)
 Courte vidéo d'introduction à un cours en ligne. Toujours utile. Hélas,
 le reste des vidéos est cher.
 
-[*&gt;
-Lien*](https://www.video2brain.com/fr/tuto/en-quoi-consiste-la-programmation)
+<https://www.video2brain.com/fr/tuto/en-quoi-consiste-la-programmation>
 
 **Partie 2 - Activités**
 ========================
@@ -64,8 +60,7 @@ faites les exercices de la catégorie “PHP/MySQL”
 ***(Pour les exercices voir la Partie 3 - Exercices qui se trouve dans
 ce document).***
 
-[*&gt;
-Lien*](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql)
+<https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql>
 
 **PHP / MySQL**
 
@@ -79,8 +74,7 @@ part.
 Afin de pouvoir stocker et restituer les données on utilise une Base De
 Données.
 
-[*&gt;
-Lien*](https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/presentation-des-bases-de-donnees-2)
+<https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/presentation-des-bases-de-donnees-2>
 
 **Partie 3 - Exercices**
 
@@ -126,7 +120,7 @@ valide doit être de la forme “jj/mm/yyyy” autrement dit “15/09/2019”.
 
 Dans une rue où se pratique le stationnement alternatif, du 1 au 15 du
 mois, on se gare du côté des maisons ayant un numéro impair, et le reste
-du mois, on se gare de l’autre côté.\
+du mois, on se gare de l’autre côté.
 Laissez la possibilité de choisir la date et le numéro de la maison
 devant laquelle vous vous êtes garé, puis affichez si vous êtes bien
 garé ou non.
@@ -142,15 +136,12 @@ d’une plage de nombres.
 Vous devez afficher tous les nombres de cette plage en respectant les
 règles ci-dessous :
 
--   Les nombres doivent être affichés sous forme de liste
+* Les nombres doivent être affichés sous forme de liste
+* Les nombres paires sont en bleu
+* Les nombres impaires sont en orange
+* Les nombres qui sont des carrés parfaits sont en gras
 
--   Les nombres paires sont en bleu
-
--   Les nombres impaires sont en orange
-
--   Les nombres qui sont des carrés parfaits sont en gras
-
-*Note :*\
+*Note :*
 La plage de nombres doit être obligatoirement des nombres positifs
 (supérieur à 0)
 
@@ -164,23 +155,23 @@ de son choix. Vous devez afficher le nombre le plus grand.
 Sur une plage de nombres de 0 à 100, affichez les suites ci-dessous dans
 des blocs différents :
 
-a\) Une suite de nombre avec “Le pas croissant”\
+a) Une suite de nombre avec “Le pas croissant”
 1, 2, 4, 7, 11, 16, . . .
 
-b\) Une suite de nombre dite “La boiteuse”\
+b) Une suite de nombre dite “La boiteuse”
 1, 2, 4, 5, 7, 8, 10, 11, . . .
 
-c\) La suite de Fibonacci\
+c) La suite de Fibonacci
 0, 1, 1, 2, 3, 5, 8, 13, 21, . . .
 
 ### **Exercice 4 - Numérologie**
 
 Convertir votre nom et votre prénom en un nombre sur le principe de la
-numérologie, chaque lettre a un poids. Exemple :\
+numérologie, chaque lettre a un poids. Exemple :
 A = 1, B = 2, C = 3, etc.
 
-Afficher le poids de votre prénom et le poids de votre nom.\
-Par exemple si vous vous appelez Bob, cela donne :\
+Afficher le poids de votre prénom et le poids de votre nom.
+Par exemple si vous vous appelez Bob, cela donne :
 B = 2, O = 15, B = 2 donc le poids est 2 + 15 + 2 = 19
 
 ### **Exercice 5 - Jeu de la fourchette**
@@ -191,8 +182,8 @@ l’ordinateur (la primitive *rand(min, max)* retourne un entier entre min
 et max). L’utilisateur a droit à huit essais maximum. À chaque essai,
 vous devrez afficher un message indicatif « nombre donné trop petit » ou
 « nombre donné trop grand ». En conclusion, soit « bravo, vous avez
-trouvé en \[nombre\] essai(s) » soit « désolé, le nombre était
-\[valeur\] ».
+trouvé en [nombre] essai(s) » soit « désolé, le nombre était
+[valeur] ».
 
 **Catégoie : Les tableaux**
 ---------------------------
@@ -286,9 +277,9 @@ exercice.
 
 Reprenez l’exercice “Le stationnement alternatif”. Maintenant, en plus
 des contraintes précédentes, pour pouvoir se garer une voiture doit
-avoir un numéro pair du 1 au 15 et un numéro impair le reste du mois.\
+avoir un numéro pair du 1 au 15 et un numéro impair le reste du mois.
 Ajouter un champ pour entrer le numéro de plaque d’immatriculation. Nous
-prendrons en compte que les nouvelles plaques d’immatriculation.\
+prendrons en compte que les nouvelles plaques d’immatriculation.
 ex: AA 555 ZZ
 
 ###
@@ -301,7 +292,7 @@ Créez une base de données *concessionnaire* à l’aide de phpmyadmin.
 
 Dans la base de données de *concessionnaire*, créez la table
 *utilisateur*. Cette table aura comme champs : *id, identifiant*,
-*mot\_de\_passe*.
+*mot_de_passe*.
 
 Ajoutez des utilisateurs dans la table en passant par l’interface de
 phpmyadmin.
@@ -310,7 +301,7 @@ Créez un formulaire pour permettre à l’utilisateur de rentrer son
 identifiant et son mot de passe.
 
 Créez une autre page qui vérifie si le couple identifiant et mot de
-passe, rentré par l’utilisateur, est valide.\
+passe, rentré par l’utilisateur, est valide.
 Afficher le message “Bienvenue” si l’utilisateur est valide et “Mot de
 passe ou identifiant incorrectes” dans le cas contraire.
 
@@ -318,19 +309,19 @@ passe ou identifiant incorrectes” dans le cas contraire.
 
 Dans la base de données *concessionnaire*, créer une table nommée
 *véhicule.* Cette table aura comme champs : i*d, nom, couleur, marque,
-consommation, puissance, puissance\_fiscale, prix.*
+consommation, puissance, puissance_fiscale, prix.*
 
 Nous allons intéragir avec ces bases de données.
 
 Tout d’abord, créez formulaire pour pouvoir ajouter un véhicule dans la
-base de données.\
+base de données.
 Créez une page qui affiche, dans un tableau toutes les informations des
 véhicules.
 
 Mettre en place la fonctionnalité pour permettre la suppression d’un
 véhicule.
 
-### **\[Pour les courageux\] Challenge - Réorganisation de répertoire**
+### **[Pour les courageux] Challenge - Réorganisation de répertoire**
 
 Pour ce dernier exercice, on vous donne peu de consignes, peu de pistes,
 c'est à vous de vous débrouiller pour trouver une solution qui
@@ -338,7 +329,7 @@ fonctionne et construire un code propre, lisible, modulaire et
 réutilisable.
 
 Écrire un programme qui réorganise les éléments d’un répertoire de votre
-machine.\
+machine.
 Il devra ranger les fichiers par extensions dans un même dossier. Par
 exemple tous les fichiers *.mp3* seront rangés dans le dossier “mp3”,
 tous les fichiers .*odt* seront rangés dans le dossier “odt”
@@ -347,15 +338,14 @@ tous les fichiers .*odt* seront rangés dans le dossier “odt”
 
 Documentation de PHP : [*http://php.net*](http://php.net)
 
-Pdo Cheat Cheets [*&gt;
-lien*](http://www.mustbebuilt.co.uk/2012/10/16/pdo-cheatsheet/)
+Pdo Cheat Cheets <http://www.mustbebuilt.co.uk/2012/10/16/pdo-cheatsheet/>
 
-**La portée d’une variable :**\
+**La portée d’une variable :**
 Les variables ont différentes portées. Chaque variable existe dans un
-contexte.\
-[*&gt;lien*](http://php.net/manual/fr/language.variables.scope.php)
+contexte.
+<http://php.net/manual/fr/language.variables.scope.php>
 
 Afin de pouvoir faire la relation entre des *tables* il faut utiliser le
 système de *clé primaire* et de *clé étrangère* :
 
-[*&gt;lien*](https://openclassrooms.com/courses/administrez-vos-bases-de-donnees-avec-mysql/cles-primaires-et-etrangeres)
+<https://openclassrooms.com/courses/administrez-vos-bases-de-donnees-avec-mysql/cles-primaires-et-etrangeres>
