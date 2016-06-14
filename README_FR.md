@@ -1,20 +1,20 @@
 # Initiation à la programmation (PHP)
 
-**Partie 0 - Programme**
-========================
+Partie 0 - Programme
+====================
 
 Nous vous proposerons chaque jour de la lecture, des activités/exercices
 et des ressources. Tout est décrit dans les parties correspondantes.
 
 Cette première partie décrit ce que nous attendons de vous aujourd'hui.
 
-**1 - Soyez curieux !**
------------------------
+1 - Soyez curieux !
+-------------------
 
 Cf. partie "Lecture".
 
-**2 - Faites les activités dans l'ordre et mettez en pratique**
----------------------------------------------------------------
+2 - Faites les activités dans l'ordre et mettez en pratique
+-----------------------------------------------------------
 
 Et n'hésitez à aller plus loin **si et seulement si** vous en avez le
 temps et que vous avancez bien.
@@ -23,25 +23,26 @@ Vous allez acquérir des connaissances au fil de votre avancement dans
 les activités. Utilisez-les pour résoudre un maximum de problèmes parmi
 les séries d'exercices que nous vous proposons.
 
-**3 - Elargissez vos réseaux sociaux et soyez curieux (bis) !**
----------------------------------------------------------------
+3 - Elargissez vos réseaux sociaux et soyez curieux (bis) !
+-----------------------------------------------------------
 
 N'oubliez pas de partager vos découvertes avec les autres via Slack ;-)
 
-**Partie 1 - Lecture**
-======================
+Partie 1 - Lecture
+==================
 
-**Comprendre en quoi consiste la programmation** ! (3 min vidéo)**
+**Comprendre en quoi consiste la programmation ! (3 min vidéo)**
 
 Courte vidéo d'introduction à un cours en ligne. Toujours utile. Hélas,
 le reste des vidéos est cher.
 
 <https://www.video2brain.com/fr/tuto/en-quoi-consiste-la-programmation>
 
-**Partie 2 - Activités**
-========================
+Partie 2 - Activités
+====================
 
-**PHP : les bases**
+PHP : les bases
+---------------
 
 PHP est un outil puissant, il est utilisé pour le développement des
 sites, partout dans le monde. Grâce à Php un site devient dynamique,
@@ -56,12 +57,13 @@ boucles”, “Les tableaux” et “blocs et tri”
 Après *la Partie 3 - Stocker des informations dans une base de données,*
 faites les exercices de la catégorie “PHP/MySQL”
 
-***(Pour les exercices voir la Partie 3 - Exercices qui se trouve dans
-ce document).***
+(Pour les exercices voir la Partie 3 - Exercices qui se trouve dans
+ce document).
 
 <https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql>
 
-**PHP / MySQL**
+PHP / MySQL
+-----------
 
 Le réel intérêt d’un langage de type *back-end* comme PHP est de gérer
 les données (stocker, restituer, transformer, etc.).
@@ -75,7 +77,8 @@ Données.
 
 <https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/presentation-des-bases-de-donnees-2>
 
-**Partie 3 - Exercices**
+Partie 3 - Exercices
+====================
 
 **A faire après la partie “Partie 2 - Transmettre des données de page en page”**
 --------------------------------------------------------------------------------
