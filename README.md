@@ -80,44 +80,45 @@ Part 3 - Exercises
 ==================
 
 What to do after the "Part 2 - Transmit data from page to page"
--------------------------------------------------- ------------
+---------------------------------------------------------------
 
 To start, use a display page that retrieves data
 revenue per user and data processing page.
 
-** Category: Introduction PHP **
+Category: Introduction PHP
+--------------------------
 
-### ** Exercise 1 - basket calculation **
+### Exercise 1 - Basket calculation
 
-Calculate the total price of a basket. The latter have 3 products
+Calculate the total price of a basket. The basket have 3 products
 different. For each product, leave the option to enter the price
-(Excluding tax), the VAT rate (percentage), and quantity.
+(excluding tax), the VAT rate (percentage), and quantity.
 
-### ** Exercise 2 - Compare prices **
+### Exercise 2 - Compare prices
 
 Compare prices 4 products and display the name of the cheaper product
 and the name of the most expensive product. Give the opportunity to return the
 product name and price.
 
-### ** Exercise 3 - The bank account **
+### Exercise 3 - The bank account
 
 You must view the status of your bank account. If it is negative,
-you have displayed "Deficit", if it is to 0, you have displayed "In
-balance "and if positive you have displayed" Credited ". Let the
+you have displayed "Deficit", if it's to 0, you have displayed "In
+balance" and if positive you have displayed "Credited". Let the
 ability to enter the account status.
 
-### ** Exercise 4 - Number of days in a month **
+### Exercise 4 - Number of days in a month
 
 Display the number of days in a month. Months are selected from
-a select box * *. We consider in this exercise that the month of
+a select box. We consider in this exercise that the month of
 February always has 28 days.
 
-### ** Year 5 - Validate a date **
+### Exercise 5 - Validate a date
 
-Confirm the anniversary date back by a user. a date
-valid must be of the form "mm / dd / yyyy" ie "15/9/2019."
+Confirm the anniversary date back by a user. A date
+valid must be of the form "mm/dd/yyyy" ie "15/9/2019".
 
-### ** Exercise 6 - Alternative parking **
+### Exercise 6 - Alternative parking
 
 In a street where the alternate parking practice, from 1 to 15
 month, you park on the side of houses with an odd number, and the rest
@@ -126,10 +127,10 @@ Let the opportunity to choose the date and house number
 before which you parked, then view if you are well
 parked or not.
 
-** Category: Loops **
----------------------------
+Category: Loops
+---------------
 
-### ** Exercise 1 - Display the first n digits **
+### Exercise 1 - Display the first n digits
 
 The user enters two numbers corresponding to the beginning and at the end
 a range of numbers.
@@ -142,11 +143,11 @@ rules below:
 * Odd numbers are orange
 * The numbers that are perfect squares are bold
 
-* Note: *
+*Note:*
 The range of numbers must be positive numbers
 (Greater than 0)
 
-### Exercise 2 ** - ** Maximum numbers
+### Exercise 2 - Maximum numbers
 
 10 Display text fields. The user will fill them with numbers
 Of his choice. You must display the greatest number.
