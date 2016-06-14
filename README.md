@@ -16,7 +16,7 @@ See section _"Playback"_.
 2 - Do activities in order and do them
 --------------------------------------
 
-And do not hesitate to go further if and only if you need it
+And do not hesitate to go further **if and only if** you need it
 time and as you go well.
 
 You will gain knowledge over your advancement
@@ -31,7 +31,7 @@ Remember to share your findings with others via Slack ;-)
 Part 1 - Reading
 ================
 
-Understand what constitutes programming! (3 min video)
+**Understand what constitutes programming! (3 min video)**
 
 Short video introduction to online courses. Always helpful. But,
 the rest of the videos is expensive.
