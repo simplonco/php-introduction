@@ -11,7 +11,7 @@ This first part describes what we expect of you today.
 1 - Be curious!
 ---------------
 
-See section "Playback".
+See section _"Playback"_.
 
 2 - Do activities in order and do them
 --------------------------------------
@@ -41,7 +41,8 @@ the rest of the videos is expensive.
 Part 2 - Activities
 ===================
 
-**PHP: the basics**
+PHP: the basics
+---------------
 
 PHP is a powerful tool, it is used for the development of
 sites worldwide. With Php a site becomes dynamic,
@@ -60,9 +61,10 @@ this document).
 
 <https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql>
 
-**PHP / MySQL**
+PHP / MySQL
+-----------
 
-The real interest of a type of language backend PHP is like to manage
+The real interest of a type of backend language like PHP is to manage
 data (store, reproduce, process, etc..).
 
 For example, for a contact form for a website it
@@ -74,13 +76,14 @@ Data.
 
 <https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/presentation-des-bases-de-donnees-2>
 
-**Part 3 - Exercises**
+Part 3 - Exercises
+==================
 
-** What to do after the "Part 2 - Transmit data from page to page" **
--------------------------------------------------- ------------------------------
+What to do after the "Part 2 - Transmit data from page to page"
+-------------------------------------------------- ------------
 
-* To start, use a display page that retrieves data
-revenue per user and data processing page. *
+To start, use a display page that retrieves data
+revenue per user and data processing page.
 
 ** Category: Introduction PHP **
 
