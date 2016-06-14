@@ -233,7 +233,7 @@ appears 3 times, `2` times appears 2, `5` appears 3 times and `8` appears one
 times (the display will not refer to the numbers
 do not appear).
 
-"Blocks and tri"
+"Blocks and sort"
 ----------------
 
 ### Exercise 1 - The Caesar cipher
@@ -245,52 +245,48 @@ encryption) which carries now his name replace each letter of
 message with the letter that is k position later in the alphabet
 (Cyclically).
 
-Example: If k is 2, then the clear text "CESAR" becomes "EGUCT"
-when it is encrypted and the text "heck" becomes "BWV".
+Example: If k is `2`, then the clear text `"CESAR"` becomes `"EGUCT"`
+when it is encrypted and the text `"heck"` becomes `"BWV"`.
 
 Of course, it is necessary that the sender and receiver are
-agreed on the value of k.
+agreed on the value of `k`.
 
 You must allow the home user a text to be
 encrypted to a ciphertext to be decrypted and choose the fill
-k value.
+`k` value.
 
 ### Exercise 2 - Validity of date
 
 Resume validation algorithm developed to date in the part
-"Control Structures" and make it modular. Which means
+_"Control Structures"_ and make it modular. Which means
 you will have several methods in your code:
-
-- A function that verifies the validity of the day. She will receive
-setting the day and return a boolean ( "true" if the day is
-valid, otherwise "false");
-
-- A function that verifies the validity of the month (in number, 1
+* A function that verifies the validity of the day. She will receive
+setting the day and return a boolean (__"true"__ if the day is
+valid, otherwise __"false"__);
+* A function that verifies the validity of the month (in number, 1
 at 12). She will receive parameter in the month and return a boolean
-( "True" if the month is valid, otherwise "false");
-
-- A function that verifies the validity of one year. She will receive
-setting the year and return a boolean ( "true" if the year is
-valid, otherwise "false");
-
-- A function that uses the previous three to check that
+(__"true"__ if the month is valid, otherwise __"false"__);
+* A function that verifies the validity of one year. She will receive
+setting the year and return a boolean (__"true"__ if the year is
+valid, otherwise __"false"__);
+* A function that uses the previous three to check that
 Date is invalid. This function will receive as parameter the day,
 month and year, each in the form of an integer.
 
-Will display "true" if the user-encoded date is valid,
-otherwise you will display "false".
+Will display __"true"__ if the user-encoded date is valid,
+otherwise you will display __"false"__.
 
 Warning ! We will not consider leap years in this
 exercise.
 
 ### Exercise 3 - Alternating parking with license plate
 
-Repeat the exercise "Alternative parking." Now, in addition
+Repeat the exercise _"Alternative parking"_. Now, in addition
 previous constraints to park a car must
-have an even number of 1 to 15 and an odd number the rest of the month.
+have an even number of `1` to `15` and an odd number the rest of the month.
 Add a field to enter the license plate number. We
 take into account that the new license plates.
-eg AA 555 ZZ
+eg `AA 555 ZZ`
 
 Category: PHP / MySQL
 ---------------------
@@ -324,6 +320,7 @@ We will interact with these databases.
 
 First, create the form to add a vehicle in the
 database.
+
 Create a page that displays, in a table all the information
 vehicles.
 
