@@ -295,30 +295,30 @@ eg AA 555 ZZ
 Category: PHP / MySQL
 ---------------------
 
-Create a vendor database using phpMyAdmin.
+Create a vendor database using **phpMyAdmin**.
 
 ### Exercise 1 - Identity
 
-In the database of vendor * * create the table
-*user*. This table will have the fields: * id * id,
-*password*.
+In the database of vendor create the table
+`user`. This table will have the fields: `id`,
+`password`.
 
 Add users to the table through the interface
-phpmyadmin.
+`phpmyadmin`.
 
 Create a form to allow the user to enter his
 username and password.
 
 Create another page that checks if the couple username and password
 passes, returned by the user is valid.
-Display the message "Welcome" if the user is valid and "Password
-incorrect password or username "otherwise.
+Display the message __"Welcome"__ if the user is valid and
+__"Password incorrect password or username"__ otherwise.
 
 ### Exercise 2 - Vendor
 
-In the database vendor, create a table named vehicle.
-This vehicle will table fields as: id, name, color, brand,
-consumption, power, puissance_fiscale, price.
+In the database `vendor`, create a table named `vehicle`.
+This vehicle will table fields as: `id`, `name`, `color`, `brand`,
+`consumption`, `power`, `price`.
 
 We will interact with these databases.
 
@@ -330,7 +330,7 @@ vehicles.
 Implement functionality to allow the removal of a
 vehicle.
 
-### [For the brave] Challenge - directory Reorganization
+### _[For the brave]_ Challenge - Directory reorganization
 
 For the last year, we give you some instructions, no runs,
 this is for you to get by for a solution that
@@ -339,14 +339,15 @@ reusable.
 
 Write a program that rearranges the elements of a directory of your
 machine.
+
 It will store the files by extensions in one folder. By
-example all `.mp3` will be stored in the "mp3" folder,
-all files. `.odt` will be stored in the "odt"
+example all `.mp3` will be stored in the _"mp3"_ folder,
+all files. `.odt` will be stored in the _"odt"_ folder.
 
 #### Resources
 
 * PHP documentation: <http://php.net>
-* PDO Cheat Cheets <http://www.mustbebuilt.co.uk/2012/10/16/pdo-cheatsheet/>
+* PDO Cheat Cheets: <http://www.mustbebuilt.co.uk/2012/10/16/pdo-cheatsheet/>
 
 #### The scope of a variable
 
