@@ -1,6 +1,5 @@
 # Initiation à la programmation (PHP)
 
-
 **Partie 0 - Programme**
 ========================
 
