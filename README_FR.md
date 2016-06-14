@@ -211,7 +211,7 @@ nombre contenu dans un tableau d'entiers.
 
 ### Exercice 3 - Nombre d'éléments d'un tableau
 
-Écrire un un algorithme qui affiche le `nombre d'éléments` qu'il y a dans
+Écrire un un algorithme qui affiche le nombre d'éléments qu'il y a dans
 un tableau.
 
 ### Exercice 4 - Plus grand écart
