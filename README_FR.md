@@ -132,7 +132,7 @@ garé ou non.
 Catégorie : Les boucles
 -----------------------
 
-### Exercice 1 - Afficher le n premiers chiffres
+### Exercice 1 - Afficher les `n` premiers chiffres
 
 L’utilisateur entre 2 nombres qui correspondent au `début` et à la `fin`
 d’une plage de nombres.
@@ -246,47 +246,44 @@ chiffrement) qui porte à présent son nom : remplacer chaque lettre du
 message par la lettre qui se situe k position plus loin dans l’alphabet
 (cycliquement).
 
-Exemple : si k vaut 2, alors le texte clair "CESAR" devient "EGUCT"
-lorsqu’il est chiffré et le texte "ZUT" devient "BWV".
+Exemple : si `k` vaut `2`, alors le texte clair `"CESAR"` devient `"EGUCT"`
+lorsqu’il est chiffré et le texte `"ZUT"` devient `"BWV"`.
 
 Bien sûr, il faut que l’expéditeur du message et le récepteur se soient
-mis d’accord sur la valeur de k.
+mis d’accord sur la valeur de `k`.
 
 Vous devez permettre à l’utilisateur de rentré un texte pour être
 crypté, de un texte crypté pour être décrypté et de pourvoir choisir la
-valeur k.
+valeur `k`.
 
 ### Exercice 2 - Validité d'une date
 
 Reprendre l'algorithme de validation d'une date développé dans la partie
-"Les structures de contrôle" et le rendre modulaire. C'est-à-dire que
+_"Les structures de contrôle"_ et le rendre modulaire. C'est-à-dire que
 vous aurez plusieurs méthodes dans votre code :
 
-- Une fonction qui vérifie la validité du jour. Elle recevra en
-paramètre le jour et retournera un booléen ("vrai" si le jour est
-valide, sinon "faux") ;
-
-- Une fonction qui vérifie la validité du mois (exprimé en nombre, de 1
+* Une fonction qui vérifie la validité du jour. Elle recevra en
+paramètre le jour et retournera un booléen (__"vrai"__ si le jour est
+valide, sinon __"faux"__) ;
+* Une fonction qui vérifie la validité du mois (exprimé en nombre, de 1
 à 12). Elle recevra en paramètre le mois et retournera un booléen
 ("vrai" si le mois est valide, sinon "faux") ;
-
-- Une fonction qui vérifie la validité d'une année. Elle recevra en
+* Une fonction qui vérifie la validité d'une année. Elle recevra en
 paramètre l'année et retournera un booléen ("vrai" si l'année est
 valide, sinon "faux") ;
-
-- Une fonction qui utilise les trois précédentes pour vérifier qu'une
+* Une fonction qui utilise les trois précédentes pour vérifier qu'une
 date est bien valide. Cette fonction recevra en paramètre le jour, le
 mois et l'année, chacun sous la forme d'un entier.
 
-Vous afficherez "vrai" si la date encodée par l'utilisateur est valide,
-sinon vous afficherez "faux".
+Vous afficherez __"vrai"__ si la date encodée par l'utilisateur est valide,
+sinon vous afficherez __"faux"__.
 
 Attention ! On ne tiendra pas compte des années bissextiles dans cet
 exercice.
 
 ### Exercice 3 - Le stationnement alternatif avec plaque d’immatriculation
 
-Reprenez l’exercice “Le stationnement alternatif”. Maintenant, en plus
+Reprenez l’exercice _“Le stationnement alternatif”_. Maintenant, en plus
 des contraintes précédentes, pour pouvoir se garer une voiture doit
 avoir un numéro pair du 1 au 15 et un numéro impair le reste du mois.
 Ajouter un champ pour entrer le numéro de plaque d’immatriculation. Nous
@@ -296,24 +293,25 @@ ex: AA 555 ZZ
 Catégorie : PHP/MySQL
 ---------------------
 
-Créez une base de données *concessionnaire* à l’aide de phpmyadmin.
+Créez une base de données `concessionnaire` à l’aide de phpmyadmin.
 
 ### Exercice 1 - Identité
 
-Dans la base de données de *concessionnaire*, créez la table
-*utilisateur*. Cette table aura comme champs : *id*, *identifiant*,
-*mot_de_passe*.
+Dans la base de données de `concessionnaire`, créez la table
+`utilisateur`. Cette table aura comme champs : `id`, `identifiant`,
+`mot_de_passe`.
 
 Ajoutez des utilisateurs dans la table en passant par l’interface de
-phpmyadmin.
+`phpmyadmin`.
 
 Créez un formulaire pour permettre à l’utilisateur de rentrer son
-identifiant et son mot de passe.
+`identifiant` et son `mot de passe`.
 
 Créez une autre page qui vérifie si le couple identifiant et mot de
 passe, rentré par l’utilisateur, est valide.
-Afficher le message “Bienvenue” si l’utilisateur est valide et “Mot de
-passe ou identifiant incorrectes” dans le cas contraire.
+
+Afficher le message __“Bienvenue”__ si l’utilisateur est valide et __“Mot de
+passe ou identifiant incorrectes”__ dans le cas contraire.
 
 ### Exercice 2 - Le concessionnaire
 
