@@ -267,10 +267,10 @@ paramètre le jour et retournera un booléen (__"vrai"__ si le jour est
 valide, sinon __"faux"__) ;
 * Une fonction qui vérifie la validité du mois (exprimé en nombre, de 1
 à 12). Elle recevra en paramètre le mois et retournera un booléen
-("vrai" si le mois est valide, sinon "faux") ;
+(__"vrai"__ si le mois est valide, sinon __"faux"__) ;
 * Une fonction qui vérifie la validité d'une année. Elle recevra en
-paramètre l'année et retournera un booléen ("vrai" si l'année est
-valide, sinon "faux") ;
+paramètre l'année et retournera un booléen (__"vrai"__ si l'année est
+valide, sinon __"faux"__) ;
 * Une fonction qui utilise les trois précédentes pour vérifier qu'une
 date est bien valide. Cette fonction recevra en paramètre le jour, le
 mois et l'année, chacun sous la forme d'un entier.
@@ -285,10 +285,10 @@ exercice.
 
 Reprenez l’exercice _“Le stationnement alternatif”_. Maintenant, en plus
 des contraintes précédentes, pour pouvoir se garer une voiture doit
-avoir un numéro pair du 1 au 15 et un numéro impair le reste du mois.
+avoir un numéro pair du `1` au `15` et un numéro impair le reste du mois.
 Ajouter un champ pour entrer le numéro de plaque d’immatriculation. Nous
 prendrons en compte que les nouvelles plaques d’immatriculation.
-ex: AA 555 ZZ
+ex: `AA 555 ZZ`
 
 Catégorie : PHP/MySQL
 ---------------------
@@ -310,14 +310,14 @@ Créez un formulaire pour permettre à l’utilisateur de rentrer son
 Créez une autre page qui vérifie si le couple identifiant et mot de
 passe, rentré par l’utilisateur, est valide.
 
-Afficher le message __“Bienvenue”__ si l’utilisateur est valide et __“Mot de
-passe ou identifiant incorrectes”__ dans le cas contraire.
+Afficher le message __“Bienvenue”__ si l’utilisateur est valide et
+__“Mot de passe ou identifiant incorrectes”__ dans le cas contraire.
 
 ### Exercice 2 - Le concessionnaire
 
-Dans la base de données *concessionnaire*, créer une table nommée
-*véhicule.* Cette table aura comme champs : id, nom, couleur, marque,
-consommation, puissance, puissance_fiscale, prix.
+Dans la base de données `concessionnaire`, créer une table nommée
+`véhicule`. Cette table aura comme champs : `id`, `nom`, `couleur`, `marque`,
+`consommation`, `puissance`, `prix`.
 
 Nous allons intéragir avec ces bases de données.
 
@@ -329,7 +329,7 @@ véhicules.
 Mettre en place la fonctionnalité pour permettre la suppression d’un
 véhicule.
 
-### [Pour les courageux] Challenge - Réorganisation de répertoire
+### _[Pour les courageux]_ Challenge - Réorganisation de répertoire
 
 Pour ce dernier exercice, on vous donne peu de consignes, peu de pistes,
 c'est à vous de vous débrouiller pour trouver une solution qui
