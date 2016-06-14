@@ -11,7 +11,7 @@ Cette première partie décrit ce que nous attendons de vous aujourd'hui.
 1 - Soyez curieux !
 -------------------
 
-Cf. partie "Lecture".
+Cf. partie _"Lecture"_.
 
 2 - Faites les activités dans l'ordre et mettez en pratique
 -----------------------------------------------------------
@@ -26,7 +26,7 @@ les séries d'exercices que nous vous proposons.
 3 - Elargissez vos réseaux sociaux et soyez curieux (bis) !
 -----------------------------------------------------------
 
-N'oubliez pas de partager vos découvertes avec les autres via Slack ;-)
+N'oubliez pas de partager vos découvertes avec les autres via Slack !
 
 Partie 1 - Lecture
 ==================
@@ -51,21 +51,20 @@ langue, la langue etc.
 
 Après les 2 premières parties du cours : *Partie 1 - Les bases de PHP*
 et *Partie 2 - Transmettre des données de page en page,* vous réaliserez
-au minimum 2 exercices dans les catégories “Introduction PHP”, “Les
-boucles”, “Les tableaux” et “blocs et tri”
+au minimum 2 exercices dans les catégories _“Introduction PHP”_, _“Les
+boucles”_, _“Les tableaux”_ et _“blocs et tri”_.
 
 Après *la Partie 3 - Stocker des informations dans une base de données,*
 faites les exercices de la catégorie “PHP/MySQL”
 
-(Pour les exercices voir la Partie 3 - Exercices qui se trouve dans
-ce document).
+_(Pour les exercices voir la *Partie 3 - Exercices* qui se trouve dans ce document)._
 
 <https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql>
 
 PHP / MySQL
 -----------
 
-Le réel intérêt d’un langage de type *back-end* comme PHP est de gérer
+Le réel intérêt d’un langage de type **back-end** comme PHP est de gérer
 les données (stocker, restituer, transformer, etc.).
 
 Par exemple, pour un formulaire de contact pour un site internet il
@@ -80,8 +79,8 @@ Données.
 Partie 3 - Exercices
 ====================
 
-A faire après la partie “Partie 2 - Transmettre des données de page en page”
-----------------------------------------------------------------------------
+A faire après la partie _“Partie 2 - Transmettre des données de page en page”_
+------------------------------------------------------------------------------
 
 Pour débuter, utilisez une page d’affichage qui récupère les données
 rentrées par l’utilisateur et une page de traitement de données.
@@ -92,39 +91,39 @@ Catégorie : Introduction PHP
 ### Exercice 1 - Calcul du panier
 
 Calculer le prix total d’un panier. Celui-ci comportera 3 produits
-différents. Pour chaque produit, laissez la possibilité d’entrer le prix
-(hors taxe), le taux de tva (en pourcentage), et la quantité.
+différents. Pour chaque produit, laissez la possibilité d’entrer le `prix`
+(hors taxe), le `taux de tva` (en pourcentage), et la `quantité`.
 
 ### Exercice 2 - Comparateur de prix
 
 Comparer le prix 4 produits et afficher le nom du produit le moins cher
 et le nom du produit le plus cher. Donnez la possibilité de rentrer le
-nom des produits et leur prix.
+`nom` des produits et leur `prix`.
 
 ### Exercice 3 - Le compte en banque
 
-Vous devez afficher l’état de votre compte en banque. S’il est négatif,
-vous devez affiché “Déficitaire”, s’il est à 0, vous devez affiché “En
-équilibre” et s’il est positif vous devez affiché “Crédité”. Laissez la
+Vous devez afficher l’état de votre compte en banque. S’il est `négatif`,
+vous devez affiché __“Déficitaire”__, s’il est à `0`, vous devez affiché __“En équilibre”__
+et s’il est `positif` vous devez affiché __“Crédité”__. Laissez la
 possibilité d’entrer l’état du compte.
 
 ### Exercice 4 - Nombre de jours dans un mois
 
 Afficher le nombre de jours dans un mois. Les mois sont choisit à partir
-d’une *select box*. On considère dans cet exercice que le mois de
+d’une `select box`. On considère dans cet exercice que le mois de
 février comprend toujours 28 jours.
 
 ### Exercice 5 - Valider une date
 
 Validez la date d’anniversaire rentrée par un utilisateur. une date
-valide doit être de la forme “jj/mm/yyyy” autrement dit “15/09/2019”.
+valide doit être de la forme `"jj/mm/yyyy"` autrement dit `"15/09/2019"`.
 
 ### Exercice 6 - Le stationnement alternatif
 
 Dans une rue où se pratique le stationnement alternatif, du 1 au 15 du
-mois, on se gare du côté des maisons ayant un numéro impair, et le reste
+mois, on se gare du côté des maisons ayant un numéro `impair`, et le reste
 du mois, on se gare de l’autre côté.
-Laissez la possibilité de choisir la date et le numéro de la maison
+Laissez la possibilité de choisir la `date` et le `numéro de la maison`
 devant laquelle vous vous êtes garé, puis affichez si vous êtes bien
 garé ou non.
 
@@ -133,7 +132,7 @@ Catégorie : Les boucles
 
 ### Exercice 1 - Afficher le n premiers chiffres
 
-L’utilisateur entre 2 nombres qui correspondent au début et à la fin
+L’utilisateur entre 2 nombres qui correspondent au `début` et à la `fin`
 d’une plage de nombres.
 
 Vous devez afficher tous les nombres de cette plage en respectant les
@@ -146,7 +145,7 @@ règles ci-dessous :
 
 *Note :*
 La plage de nombres doit être obligatoirement des nombres positifs
-(supérieur à 0)
+(supérieur à `0`)
 
 ### Exercice 2 - Maximum de nombres
 
@@ -155,74 +154,81 @@ de son choix. Vous devez afficher le nombre le plus grand.
 
 ### Exercice 3 - Génération de suites
 
-Sur une plage de nombres de 0 à 100, affichez les suites ci-dessous dans
+Sur une plage de nombres de `0` à `100`, affichez les suites ci-dessous dans
 des blocs différents :
 
-a) Une suite de nombre avec “Le pas croissant”
-1, 2, 4, 7, 11, 16, . . .
-
-b) Une suite de nombre dite “La boiteuse”
-1, 2, 4, 5, 7, 8, 10, 11, . . .
-
+a) Une suite de nombre avec _“Le pas croissant”_
+```php
+1, 2, 4, 7, 11, 16, ...
+```
+b) Une suite de nombre dite _“La boiteuse”_
+```php
+1, 2, 4, 5, 7, 8, 10, 11, ...
+```
 c) La suite de Fibonacci
-0, 1, 1, 2, 3, 5, 8, 13, 21, . . .
+```php
+0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+```
 
 ### Exercice 4 - Numérologie
 
 Convertir votre nom et votre prénom en un nombre sur le principe de la
 numérologie, chaque lettre a un poids. Exemple :
-A = 1, B = 2, C = 3, etc.
-
+```php
+A = 1, B = 2, C = 3, etc..
+```
 Afficher le poids de votre prénom et le poids de votre nom.
 Par exemple si vous vous appelez Bob, cela donne :
+```php
 B = 2, O = 15, B = 2 donc le poids est 2 + 15 + 2 = 19
+```
 
 ### Exercice 5 - Jeu de la fourchette
 
 Simuler le jeu de la fourchette. Ce jeu consiste à essayer de découvrir
-un nombre quelconque compris entre 1 et 100 inclus, tiré au sort par
-l’ordinateur (la primitive *rand(min, max)* retourne un entier entre min
-et max). L’utilisateur a droit à huit essais maximum. À chaque essai,
-vous devrez afficher un message indicatif « nombre donné trop petit » ou
-« nombre donné trop grand ». En conclusion, soit « bravo, vous avez
-trouvé en [nombre] essai(s) » soit « désolé, le nombre était
-[valeur] ».
+un nombre quelconque compris entre `1` et `100` inclus, tiré au sort par
+l’ordinateur (la primitive `rand(min, max)` retourne un entier entre `min`
+et `max`). L’utilisateur a droit à huit essais maximum. À chaque essai,
+vous devrez afficher un message indicatif __« nombre donné trop petit »__ ou
+__« nombre donné trop grand »__. En conclusion, soit
+__« bravo, vous avez trouvé en *[nombre]* essai(s) »__ soit
+__« désolé, le nombre était *[valeur]* »__.
 
 Catégorie : Les tableaux
 ------------------------
 
 ### Exercice 1 - Somme
 
-Écrire un algorithme qui calcule et affiche la somme des entiers d'un
+Écrire un algorithme qui calcule et affiche la `somme` des entiers d'un
 tableau.
 
 ### Exercice 2 - Maximum et minimum
 
-Écrire un un algorithme qui affiche le plus grand et le plus petit
+Écrire un un algorithme qui affiche le `plus grand` et le `plus petit`
 nombre contenu dans un tableau d'entiers.
 
 ### Exercice 3 - Nombre d'éléments d'un tableau
 
-Écrire un un algorithme qui affiche le nombre d'éléments qu'il y a dans
+Écrire un un algorithme qui affiche le `nombre d'éléments` qu'il y a dans
 un tableau.
 
 ### Exercice 4 - Plus grand écart
 
-Écrire un algorithme qui calcule le plus grand écart entre deux entiers
+Écrire un algorithme qui calcule le `plus grand écart` entre deux entiers
 consécutifs dans un tableau.
 
 ### Exercice 5 - Tableau ordonné ?
 
-Écrire un un algorithme qui affiche "vrai" si un tableau d'entiers est
-ordonné (strictement) croissant sur les valeurs, ou "faux" si ce n'est
+Écrire un un algorithme qui affiche __"vrai"__ si un tableau d'entiers est
+ordonné (strictement) croissant sur les valeurs, ou __"faux"__ si ce n'est
 pas le cas.
 
 ### Exercice 6 - Occurence des chiffres
 
 Écrire un un algorithme qui affiche pour chacun des chiffres le nombre
 de fois qu'il apparait dans un nombre. Ainsi, pour le nombre
-10502851125, l’affichage mentionnera que le chiffre 0 apparait 2 fois, 1
-apparait 3 fois, 2 apparait 2 fois, 5 apparait 3 fois et 8 apparait une
+`10502851125`, l’affichage mentionnera que le chiffre `0` apparait 2 fois, `1`
+apparait 3 fois, `2` apparait 2 fois, `5` apparait 3 fois et `8` apparait une
 fois (l’affichage ne mentionnera donc pas les chiffres qui
 n’apparaissent pas).
 
