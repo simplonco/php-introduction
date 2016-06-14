@@ -196,45 +196,45 @@ __"sorry, the number was *[value]*"__.
 Category: Tables
 ----------------
 
-### Exercise 1 - Somme
+### Exercise 1 - Sum
 
-Write an algorithm that calculates and displays the sum of the integers a
+Write an algorithm that calculates and displays the `sum` of the integers a
 board.
 
 ### Exercise 2 - Maximum and minimum
 
-Write an algorithm that displays the largest and smallest
+Write an algorithm that displays the `largest` and `smallest`
 number in an array of integers.
 
 ### Exercise 3 - Number of array elements
 
-Write an algorithm that displays the number of items there are in
+Write an algorithm that displays the `number of items` there are in
 a painting.
 
-### Exercise 4 - Bigger gap
+### Exercise 4 - Largest gap
 
-An algorithm that calculates the largest gap between two integers
+An algorithm that calculates the `largest gap` between two integers
 consecutive in a table.
 
-### Exercise 5 - Table ordered ?
+### Exercise 5 - Table ordered?
 
-Write an algorithm that displays "true" if an array of integers is
-ordered (strictly) increasing the values, or "false" if not
+Write an algorithm that displays __"true"__ if an array of integers is
+ordered (strictly) increasing the values, or __"false"__ if not
 not.
 
-### Exercise 6 - Occurence figures
+### Exercise 6 - Occurence count
 
 Write an algorithm that displays for each digit in the number
 many times it appears in a number. Thus, for the number
-10502851125, the display will mention that the number 0 appears 2 times, 1
-appears 3 times, 2 times appears 2, 5 and 8 appears 3 times appears a
+`10502851125`, the display will mention that the number `0` appears 2 times, `1`
+appears 3 times, `2` times appears 2, `5` appears 3 times and `8` appears one
 times (the display will not refer to the numbers
 do not appear).
 
-** "Blocks and tri" **
-------------------
+"Blocks and tri"
+----------------
 
-### ** Exercise 1 - The Caesar cipher **
+### Exercise 1 - The Caesar cipher
 
 Since ancient times, politicians, soldiers, men
 business seeking to keep secret the important messages they
@@ -253,7 +253,7 @@ You must allow the home user a text to be
 encrypted to a ciphertext to be decrypted and choose the fill
 k value.
 
-### ** Exercise 2 - Validity of date **
+### Exercise 2 - Validity of date
 
 Resume validation algorithm developed to date in the part
 "Control Structures" and make it modular. Which means
@@ -281,7 +281,7 @@ otherwise you will display "false".
 Warning ! We will not consider leap years in this
 exercise.
 
-### ** Exercise 3 - Alternating parking with license plate **
+### Exercise 3 - Alternating parking with license plate
 
 Repeat the exercise "Alternative parking." Now, in addition
 previous constraints to park a car must
@@ -290,15 +290,14 @@ Add a field to enter the license plate number. We
 take into account that the new license plates.
 eg AA 555 ZZ
 
-###
+Category: PHP / MySQL
+---------------------
 
-** Category: PHP / MySQL **
+Create a vendor database using phpMyAdmin.
 
-Create a dealer * * database using phpMyAdmin.
+### Exercise 1 - Identity
 
-### ** Exercise 1 - Identity **
-
-In the database of dealer * * create the table
+In the database of vendor * * create the table
 *user*. This table will have the fields: * id * id,
 *password*.
 
@@ -313,9 +312,9 @@ passes, returned by the user is valid.
 Display the message "Welcome" if the user is valid and "Password
 incorrect password or username "otherwise.
 
-### Exercise 2 - Dealer
+### Exercise 2 - Vendor
 
-In the database dealer, create a table named vehicle.
+In the database vendor, create a table named vehicle.
 This vehicle will table fields as: id, name, color, brand,
 consumption, power, puissance_fiscale, price.
 
