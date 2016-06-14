@@ -1,5 +1,7 @@
 # Initiation à la programmation (PHP)
 
+![The Elephant](https://upload.wikimedia.org/wikipedia/commons/4/49/Elephant_De_Seve_18th_century.jpg)
+
 Partie 0 - Programme
 ====================
 
