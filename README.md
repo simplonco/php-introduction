@@ -1,6 +1,6 @@
 # Introduction to programming (PHP)
 
-** Part 0 - Program **
+**Part 0 - Program**
 ========================
 
 We will offer every day of the reading, activities / exercises
@@ -8,22 +8,22 @@ and resources. This is described in the corresponding parts.
 
 This first part describes what we expect of you today.
 
-** 1 - ** Be curious!
+**1 -** Be curious!
 -----------------------
 
 See section "Playback".
 
-** 2 - Do activities in order and do them **
+**2 - Do activities in order and do them**
 -------------------------------------------------- -------------
 
-And do not hesitate to go further ** ** if and only if you need it
+And do not hesitate to go further if and only if you need it
 time and as you go well.
 
 You will gain knowledge over your advancement
 activities. Use them to solve problems from a maximum of
 exercise routines that we propose.
 
-** 3 - Widen your social networks and be curious (repeat) **!
+**3 - Widen your social networks and be curious (repeat)!**
 -------------------------------------------------- -------------
 
 Remember to share your findings with others via Slack ;-)
@@ -304,11 +304,11 @@ passes, returned by the user is valid.
 Display the message "Welcome" if the user is valid and "Password
 incorrect password or username "otherwise.
 
-### Exercise 2 ** - ** Dealer
+### Exercise 2 - Dealer
 
-In the database * dealer *, create a table named
-. * * This vehicle will table fields as: i * d, name, color, brand,
-consumption, power, puissance_fiscale, price. *
+In the database dealer, create a table named vehicle.
+This vehicle will table fields as: id, name, color, brand,
+consumption, power, puissance_fiscale, price.
 
 We will interact with these databases.
 
@@ -320,7 +320,7 @@ vehicles.
 Implement functionality to allow the removal of a
 vehicle.
 
-### ** [For the brave] Challenge - directory ** Reorganization
+### [For the brave] Challenge - directory Reorganization
 
 For the last year, we give you some instructions, no runs,
 this is for you to get by for a solution that
@@ -330,21 +330,22 @@ reusable.
 Write a program that rearranges the elements of a directory of your
 machine.
 It will store the files by extensions in one folder. By
-example all * .mp3 * will be stored in the "mp3" folder,
-all files. * * odt will be stored in the "odt"
+example all `.mp3` will be stored in the "mp3" folder,
+all files. `.odt` will be stored in the "odt"
 
-**Resources**
+#### Resources
 
-PHP documentation: <http://php.net>
+* PHP documentation: <http://php.net>
+* PDO Cheat Cheets <http://www.mustbebuilt.co.uk/2012/10/16/pdo-cheatsheet/>
 
-PDO Cheat Cheets <http://www.mustbebuilt.co.uk/2012/10/16/pdo-cheatsheet/>
+#### The scope of a variable
 
-** The scope of a variable **
 The variables have different scopes. Each variable exists in a
 context.
+
 <Http://php.net/manual/fr/language.variables.scope.php>
 
-In order to make the relationship between tables * * must be used
-system * * primary key and foreign key * *:
+In order to make the relationship between tables must be used
+system `primary key` and `foreign key`:
 
 <https://openclassrooms.com/courses/administrez-vos-bases-de-donnees-avec-mysql/cles-primaires-et-etrangeres>
