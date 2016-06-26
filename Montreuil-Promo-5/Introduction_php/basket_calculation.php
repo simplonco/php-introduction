@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>Basket Calculation</title>
     <meta charset="utf-8">
     <meta name="viewreport" content="width=device-width, initial-scale=1.0">
   </head>
